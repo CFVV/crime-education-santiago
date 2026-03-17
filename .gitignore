@@ -1,0 +1,21 @@
+# Datos raw  grandes
+data/raw/listado_delitos.csv
+data/raw/shapefiles/
+
+# Datos intermedios (se regeneran con Script 06, pesan 906 MB)
+data/intermediate/
+
+# Datos procesados de origen (fuente externa, no redistribuible)
+data/processed/simce_completo_5.dta
+data/processed/simce_completo_5.rds
+
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
